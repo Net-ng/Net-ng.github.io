@@ -62,7 +62,7 @@ footer .copyright{margin:20px 10% 70px 10%;padding-top:38px;border-top:1px solid
     .section2 ul{padding-left:0}
     .section3 h2{text-align: center}
     .section3 .col{width: 100%;text-align: center;padding:20px;margin: 0}
-    .section3 .button{top:30px;width: 90%;margin: 0}    
+    .section3 .button{top:30px;width: 90%;margin: 0;max-width:340px}    
 }
 
 @media (max-width: 900px) {    
