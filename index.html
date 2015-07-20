@@ -2,43 +2,74 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <title>Kansha - Free Collaborative Tool</title>
+    <title>Kansha - Open Source Collaborative Tool</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">    
     <link rel="stylesheet" href="css/knacss.css">
-    <link rel="stylesheet" href="css/screen.css">    
+    <link rel="stylesheet" href="css/screen.css">
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery.chocolat.js"></script>
+	<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8" />    
 </head>
 <body>
+		<!-- Javascript calls -->
+		<script type="text/javascript" charset="utf-8">
+				$(function() {
+					$('#zoom1 a').Chocolat({displayAsALink:true, linksContainer: 'linksContainer'});
+					$('#zoom2 a').Chocolat({displayAsALink:true, linksContainer: 'linksContainer'});
+					$('#zoom3 a').Chocolat({displayAsALink:true, linksContainer: 'linksContainer'});
+					$('#zoom4 a').Chocolat({displayAsALink:true, linksContainer: 'linksContainer'});
+				});
+		</script>    
     <header>
         <a href="" class="logo"></a>
         <div class="title">
-            <h1>Kansha<small>Free Collaborative Tool</small></h1>
+            <h1>Kansha<small>Open Source Collaborative Tool</small></h1>
             <a href="https://github.com/Net-ng/kansha" class="button start">GET STARTED</a>
-            <a href="http://demo.kansha.org" target="_blank" class="button demo">TRY A DEMO</a>
+            <a href="http://demo.kansha.org" target="_blank" class="button demo">TRY IT</a>
         </div>
     </header>
     <section class="section1">
-        <h2>Visual, Flexible, Collaborative and Free</h2>
-        <div class="slider"></div>
+        <h2>Your own open source, self-hosted, scrum boards, enhanced todo lists and Trello-like boards tool</h2>       
+        <div class="slider">            
+            <p id="zoom1">
+                <a href="zoom/satori-project.png" title="Satory Project board" rel="Project Management"></a>
+                <a href="zoom/satori-project-card.png" title="Satory project card"></a>
+            </p>
+            <p id="zoom2">
+                <a href="zoom/my-personal-todo-list.png" title="Board" rel="Personal Todo list"></a>
+          </p>  
+            <p id="zoom3">
+	          <a href="zoom/brainstorming-card.png" title="Youtube card" rel="Brainstorming"></a>
+		<a href="zoom/brainstorming.png" title="Board" rel="Brainstorming"></a>
+		
+            </p> 
+            <p id="zoom4">
+                <a href="zoom/week-tasks-board-calendar-view.png" title="Board in calendar view" rel="Week Tasks"></a>	    
+                <a href="zoom/week-tasks-board.png" title="Board" rel="Week Tasks"></a>
+            </p>             
+        </div>
     </section>
     <section class="section2">
         <h2>Features and stuff</h2>
         <div class="col">
             <h3 class="kansha">Kansha</h3>
-            <ul>
-                <li>Multiple authentification</li>
+            <ul>                
                 <li>Notifications</li>
                 <li>Multi boards</li>
                 <li>Collaborative</li>
+                <li>Multilingual</li>
+                <li>Authentication <small>(Google, Facebook, Twitter, LDAP…)</small></li>                
             </ul>
         </div>
         <div class="col">
             <h3 class="board">Boards</h3>
             <ul>
-                <li>Search Engine</li>
+                <li>Contextual search</li>
                 <li>Archive</li>
-                <li>Calendar</li>
-                <li>Export</li>
-                <li>Activity</li>
-                <li>Drag’n Drop</li>
+                <li>Calendar view</li>
+                <li>Activity stream</li>
+                <li>Reporting</li>                
             </ul>
         </div>
         <div class="col">
@@ -46,10 +77,10 @@
             <ul>
                 <li>Check List</li>
                 <li>Due date</li>
-                <li>File upload</li>
+                <li>File attachment</li>
                 <li>Vote</li>
-                <li>Comments</li>
-                <li>Labels</li>
+                <li>Comment</li>
+                <li>Label</li>
             </ul>
         </div>        
     </section>
@@ -60,11 +91,11 @@
                 <li>BSD Licence</li>
                 <li>Download it</li>
                 <li>Adapt it</li>
-                <li>Adapt it</li>
+                <li>Adopt it</li>
                 <li>Host it</li>
             </ul>
         </div>
-        <a href="https://github.com/Net-ng/kansha"  target="_blank" class="button">Get source code</a>
+        <a href="https://github.com/Net-ng/kansha"  target="_blank" class="button">Get the code</a>
         <div class="col">
             <h2>Cross-platform</h2>
             <ul>
