@@ -46,9 +46,10 @@ footer{text-align: center}
 footer h2{margin-bottom: 50px}
 footer .part{display: inline-block;margin:0 50px 50px 0}
 footer .part1{background: url(../img/part1.jpg);width:100px;height: 100px}
-footer .part2{background: url(../img/part2.jpg);width:68px;height: 100px}
-footer .part3{background: url(../img/part3.jpg);width:227px;height: 100px}
+footer .part2{background: url(../img/part2.png);width:224px;height: 100px;background-size: 224px 100px;filter: grayscale(1)}
+footer .part3{background: url(../img/part3.png);width:227px;height: 100px;background-size: 227px 100px;filter: grayscale(1)}
 footer .part4{background: url(../img/part4.jpg);width:92px;height: 100px}
+footer .part5{background: url(../img/part5.png);width:92px;height: 100px;background-size: 92px 100px;filter: grayscale(1)}
 footer .copyright{margin:20px 10% 70px 10%;padding-top:38px;border-top:1px solid #faa725;font-family: 'Roboto', sans-serif}
 
 .body-login .wrap{background:#F5F5F5;color:#1f1f2d;position: relative;padding: 0;margin-top: 10%}
